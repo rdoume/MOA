@@ -1,13 +1,20 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+<<<<<<< f1bc8db166b0a45da7a6a6f2ae6ba7cbee5d6b51
 *$py.class
+=======
+>>>>>>> Add readme and .gitignore
 
 # C extensions
 *.so
 
 # Distribution / packaging
 .Python
+<<<<<<< f1bc8db166b0a45da7a6a6f2ae6ba7cbee5d6b51
+=======
+env/
+>>>>>>> Add readme and .gitignore
 build/
 develop-eggs/
 dist/
@@ -19,6 +26,7 @@ lib64/
 parts/
 sdist/
 var/
+<<<<<<< f1bc8db166b0a45da7a6a6f2ae6ba7cbee5d6b51
 wheels/
 pip-wheel-metadata/
 share/python-wheels/
@@ -26,6 +34,11 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+=======
+*.egg-info/
+.installed.cfg
+*.egg
+>>>>>>> Add readme and .gitignore
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -40,16 +53,22 @@ pip-delete-this-directory.txt
 # Unit test / coverage reports
 htmlcov/
 .tox/
+<<<<<<< f1bc8db166b0a45da7a6a6f2ae6ba7cbee5d6b51
 .nox/
+=======
+>>>>>>> Add readme and .gitignore
 .coverage
 .coverage.*
 .cache
 nosetests.xml
 coverage.xml
 *.cover
+<<<<<<< f1bc8db166b0a45da7a6a6f2ae6ba7cbee5d6b51
 *.py,cover
 .hypothesis/
 .pytest_cache/
+=======
+>>>>>>> Add readme and .gitignore
 
 # Translations
 *.mo
@@ -57,6 +76,7 @@ coverage.xml
 
 # Django stuff:
 *.log
+<<<<<<< f1bc8db166b0a45da7a6a6f2ae6ba7cbee5d6b51
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
@@ -67,6 +87,8 @@ instance/
 
 # Scrapy stuff:
 .scrapy
+=======
+>>>>>>> Add readme and .gitignore
 
 # Sphinx documentation
 docs/_build/
@@ -74,6 +96,7 @@ docs/_build/
 # PyBuilder
 target/
 
+<<<<<<< f1bc8db166b0a45da7a6a6f2ae6ba7cbee5d6b51
 # Jupyter Notebook
 .ipynb_checkpoints
 
@@ -127,3 +150,36 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+=======
+# DotEnv configuration
+.env
+
+# Database
+*.db
+*.rdb
+
+# Pycharm
+.idea
+
+# VS Code
+.vscode/
+
+# Spyder
+.spyproject/
+
+# Jupyter NB Checkpoints
+.ipynb_checkpoints/
+
+# exclude data from source control by default
+/data/
+
+# Mac OS-specific storage files
+.DS_Store
+
+# vim
+*.swp
+*.swo
+
+# Mypy cache
+.mypy_cache/
+>>>>>>> Add readme and .gitignore
